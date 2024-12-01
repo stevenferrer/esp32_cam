@@ -1,0 +1,6 @@
+.vscode
+.cache
+build/
+sdkconfig
+sdkconfig.old
+.pytest_cache/
