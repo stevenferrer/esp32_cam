@@ -8,4 +8,14 @@ CompileFlags:
       -mlongcalls,
       -fno-shrink-wrap,
       -march=rv32imc_zicsr_zifencei,
+      -mdisable-hardware-atomics,
+      -mfix-esp32-psram-cache-issue,
+      -mfix-esp32-psram-cache-strategy=memw,
     ]
+
+InlayHints:
+  BlockEnd: No
+  Designators: No
+  Enabled: Yes
+  ParameterNames: Yes
+  DeducedTypes: Yes
